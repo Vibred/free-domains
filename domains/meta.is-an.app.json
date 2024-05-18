@@ -1,0 +1,12 @@
+addSubDomain({
+  description: 'A website that converts Youtube videos into mp3/mp4 files',
+  domain: 'is-an.app',
+  subdomain: 'meta',
+  owner: {
+    email: 'red@pissmail.com',
+  },
+  record: {
+    NS: ["ns1.dynv6.com","ns2.dynv6.com","ns3.dynv6.com"]
+  },
+  proxy: false,
+})
